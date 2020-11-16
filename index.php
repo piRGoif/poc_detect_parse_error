@@ -9,8 +9,6 @@ $(document).ready(function () {
 });
 </script>
 <?php
-$bErrorOnInclude = false;
-
 register_shutdown_function(static function () {
 	$error = error_get_last();
 	if ($error
